@@ -1,0 +1,6 @@
+-sname 'otel_nova'
+
+-setcookie otel_nova_cookie
+
++K true
++A30

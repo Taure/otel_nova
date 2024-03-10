@@ -1,0 +1,20 @@
+%% -*- mode: erlang;erlang-indent-level: 4;indent-tabs-mode: nil -*-
+{application, otel_nova,
+ [{description, "otel_nova managed by Nova"},
+  {vsn, git},
+  {registered, []},
+  {mod, { otel_nova_app, []}},
+  {included_applications, []},
+  {applications,
+   [
+    kernel,
+    stdlib,
+    nova,
+    opentelemetry_cowboy
+   ]},
+  {env,[]},
+  {modules, []},
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
